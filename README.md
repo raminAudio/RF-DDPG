@@ -22,7 +22,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 # Solution 
 
- `Continuous_Control.ipynb` contains the solution that solves this environment and acheives a score of at least 30 averged over 20 agents for at least 100 consecutive episodes as shown [image1]:(reward_20_agents.png)
+ `Continuous_Control.ipynb` contains the solution that solves this environment and acheives a score of at least 30 averged over 20 agents for at least 100 consecutive episodes as shown ![alt text](reward_20_agents.png). 
 
 
 
