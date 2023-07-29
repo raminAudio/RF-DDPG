@@ -23,6 +23,10 @@ The environment is considered solved, when the average (over 100 episodes) of th
 # Solution 
 
  `Continuous_Control.ipynb` contains the solution that solves this environment and acheives a score of at least 30 averged over 20 agents for at least 100 consecutive episodes as shown ![alt text](reward_20_agents.png). 
+ 
+ I solved this problem using Actor-Critic with DDPG. You can find the model architectures for Actor and the Critic ![alt text](model.py). In order to solve this problem I used a replay buffer, OUNoise, and clipping the gradient norm in the critic model. I used DDPG to solve this environment and blending the weights between the local and the target network. You can find the code here ![alt text](agent.py). 
+ 
+ The best weights for the best actor and critic model can be found ![alt text](artifact/reacher_best_actor.pth) and ![alt text](artifact/reacher_best_critic.pth). 
 
 
 
